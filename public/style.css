@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: lemonchiffon
+}
+footer {
+  font: 18px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(39, 28, 28);
+  color: white;
+  text-align: center;
+  padding: 14px;
+  margin-top: 3vw;
+}
+
+footer span {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(255, 102, 0);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 70px;
+}
+
+.App-header {
+  background-color:rgb(39, 28, 28);
+  height: 110px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.25em;
+}
+
+.main-body {
+  min-height: 75vh;
+  justify-items: center;
+}
+
+.puzzle-grid {
+  display: grid;
+  padding: 0;
+  margin: auto;
+  margin-top: 100px;
+  grid-template-columns: repeat(9, 1fr);
+  width: 270px;
+}
+
+.puzzle-grid input {
+  margin: 0;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
