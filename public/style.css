@@ -21,6 +21,19 @@ footer span {
   color: rgb(255, 102, 0);
 }
 
+button:hover {
+  background: black;
+  color: white
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 70px;
@@ -45,18 +58,18 @@ footer span {
   height: 80vh;
 }
 
-.puzzle-memo {
+.introduction {
   float: left;
   padding: 0;
   margin-left: 40px;
   text-align: left;
 }
 
-.puzzle-memo h2{
+.introduction h2{
   margin-top: 80px;
 }
 
-.puzzle-memo p {
+.introduction p {
   margin-top: 20px;
   font-size: 16px;
 }
@@ -93,7 +106,8 @@ footer span {
   margin-top: 80px;
   grid-template-columns: repeat(9, 1fr);
   grid-gap: 0;
-  width: 324px;
+  width: 430px;
+  height: 430px;
 }
 
 .puzzle-grid input {
@@ -108,7 +122,8 @@ footer span {
 }
 
 input:hover {
-  background: orangered
+  background: black;
+  columns: white;
 }
 
 .puzzle-options {
@@ -133,14 +148,6 @@ input:hover {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-button:hover {
-  background: black;
-  color: white
-}
-
-button:focus {
-  outline: none;
-}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -151,8 +158,9 @@ button:focus {
     margin-left: 5vw;
   }
 }
+
 @media(max-width: 800px) {
-  .puzzle-memo {
+  .introduction {
     display: none;
   }
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Introduction from './introduction';
 
 class Puzzle extends Component {
   constructor(props) {
@@ -31,10 +32,7 @@ class Puzzle extends Component {
   render() {
     return (
       <div className="main-game-body">
-        <div className="puzzle-memo">
-          <h2>Some Memo</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quos beatae magni magnam veniam illum quae perspiciatis? Quae ex, saepe obcaecati consectetur numquam sit ipsam ut aliquam illo et at.</p>
-        </div>
+        <Introduction />
         <div className="puzzle-main">
           <div className="puzzle-game">
             <div className="game-detail">
@@ -59,6 +57,7 @@ class Puzzle extends Component {
             <button id='clear'>Clear Wrong</button>
             <button id='solve'>Solution</button>
             <button id='restart'>Start Again</button>
+            <button id='save'>Save Game</button>            
             <button id='addnew'>Add a Puzzle</button>
           </div>
         </div>
