@@ -111,7 +111,7 @@
   width: 240px;
 }
 
-.board-size, .game-level, .puzzle-id, .handy {
+.board-size, .game-level, .puzzle-id, .others {
   font-size: 14px;
   background: white;
   padding: 10px;
@@ -131,8 +131,8 @@
   height: 90px;
 }
 
-.handy {
-  height: 50px;
+.others {
+  height: 70px;
 }
 
 .puzzle-config p {
@@ -160,6 +160,10 @@
   border-radius: 6px;
 }
 
+.others p {
+  margin-top: 5px;
+  margin-left: 25px;
+}
 @media(max-width: 800px) {
   .introduction {
     display: none;

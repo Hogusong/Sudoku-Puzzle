@@ -47,12 +47,15 @@ class Home extends Component {
           <div className="home-game">
             <div className="puzzle-grid-four">
               {this.renderGrid(4)}
+              <p>4 x 4</p>
             </div>
             <div className="puzzle-grid-six">
               {this.renderGrid(6)}
+              <p>6 x 6</p>
             </div>
             <div className="puzzle-grid-nine">
               {this.renderGrid(9)}
+              <p>9 x 9</p>
             </div>
           </div>
           <div className="puzzle-config">
@@ -69,21 +72,22 @@ class Home extends Component {
               <div>
                 <p>Easy</p>
                 <p>Medium</p>
-                <p>Hard</p>
                 <p>Advenced</p>
+                <p>Hard</p>
               </div>
             </div>
             <div className="puzzle-id">
-              <h3>Puzzle option</h3>
+              <h3>Puzzle options</h3>
               <div>
                 <p>Random</p>
                 <p>Choose puzzle</p>
                 <label>Enter number : <input type="number"/></label>
               </div>
             </div>
-            <div className="handy">
-              <h3>Hint</h3>
+            <div className="others">
+              <h3>Other options</h3>
               <label>How many hint(s) : <input type="number"/></label>
+              <p>Time count : Yes  or  No</p>
             </div>
             <button id="start-game">Start Game</button>
           </div>

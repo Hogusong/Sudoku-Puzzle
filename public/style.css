@@ -40,16 +40,30 @@ input:focus {
 }
 
 .App-header {
-  background-color:rgb(39, 28, 28);
+  background-color:black;
   height: 110px;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
+.App-header p {
+  float: right;
+  margin-right: 20px;
+}
+
+.App-header a {
+  margin: 0 10px;
+}
+
+.App-header a:hover {
+  color: orangered
+}
+
 .App-title {
   font-size: 1.25em;
 }
+
 
 .main-game-body {
   display: grid;
@@ -133,8 +147,8 @@ input:hover {
 .puzzle-btns {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(10, 1fr);
-  margin-top: 130px;
+  grid-template-rows: repeat(12, 1fr);
+  margin-top: 80px;
   margin-left: 3vw;
 }
 

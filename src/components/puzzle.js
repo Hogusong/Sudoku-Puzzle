@@ -59,6 +59,7 @@ class Puzzle extends Component {
             <button id='restart'>Start Again</button>
             <button id='save'>Save Game</button>            
             <button id='addnew'>Add a Puzzle</button>
+            <button id='config'>Set Options</button>
           </div>
         </div>
       </div>
