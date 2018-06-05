@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../img/logo.svg';
-import SignIn from './signin';
-import LogIn from './login';
+import SignIn from '../containers/signin';
+import LogIn from '../containers/login';
 import '../css/header.css';
 
 class Header extends Component {

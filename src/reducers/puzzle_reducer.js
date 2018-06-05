@@ -1,6 +1,10 @@
+import { FETCH_PUZZLE} from '../actions'
+
 export default function(state=[], action) {
-  if (action.payload) {
-    return action.payload.data;
+  switch (action.type) {
+    case FETCH_PUZZLE:
+      return action.puzzle;
+    default:
+      return state;
   }
-  return state;
 }
